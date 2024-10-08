@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+    
+
+  <body style="background-color:lightpink; background-image: url(./Cute\ Cat\ Desktop\ Wallpaper.png); background-size: cover; color:darkmagenta; font-family: Gill Sans, Trebuchet MS, sans-serif">
+    <div id="top" style="display: flex; justify-content: space-between; padding-left: 20px; padding-right: 20px; backdrop-filter: blur(10px); background-color: rgba(171, 10, 117, 0.50); color: antiquewhite;">
+        <p style="background-color: rgba(171, 10, 117, 0.75); border-radius: 16px; padding: 2px 6px; cursor: pointer;" id="welcomeopen">CatOS</p>
+        <p style="background-color: rgba(171, 10, 117, 0.75); border-radius: 16px; padding: 2px 6px">Living the best life. Meow</p>
+        <p  id="timeElement" style="background-color: rgba(171, 10, 117, 0.75); border-radius: 16px; padding: 2px 6px">09/04/2024 1:55 PM</p>
+    </div>
+    <div id="desktopApps" style="padding-top: 54px; padding-left: 20px;">
+      <div class="deselected" id="notesIcon" style="text-align: center; padding: 20px; width: fit-content;">
+        <img src="./vecteezy_cute-little-cat-with-notepad-and-pen-kawaii-cartoon-character_.jpg" alt="kitty with notebook" style="width: 80px; height: 80px; border-radius: 20px;">
+        <p style="margin: 0px;">MeowNotes</p>
+      </div>
+      <div class="deselected" id="artIcon" style="text-align: center; padding: 20px; width: fit-content;">
+        <img src="./S_0060.jpg" alt="art hand" style="width: 80px; height: 80px; border-radius: 20px;">
+        <p style="margin: 0px;">Art Gallery</p>
+      </div>
+    </div>
+    <div class="window" id="art" style=" top: 50%; left: 50%; transform: translate(-50%, -50%); height: 500px;">
+      <!-- <p style="cursor: pointer;" id="welcomeclose">Close</p> -->
+      <div class="windowheader" id="artheader">
+          <div class="closebutton" id="artclose"></div>
+          <p class="headertext">Art Gallery</p>
+      </div>
+      <div id="gallery" class="gallery" style="display: block; text-align: center; height: 430px; overflow-y: scroll; position: relative;">
+        <div style="display: flex; justify-content: space-between; padding-top: 10px; padding-bottom: 10px;">
+          <img id="dragon" class="hover" src="./033DD421-A49A-4AB4-BC92-C9729406B273_1_105_c.jpeg" alt="" style="height: 200px;">
+          <img id="empire" class="hover" src="./237CA3B5-521C-4C24-84B6-DB824BA657FC.heic" alt="" style="height: 200px;">
+          <img id="BB8" class="hover" src="./2867E6B1-CB31-4316-880A-F2E83473202E_1_105_c.jpeg" alt="" style="height: 200px;">
+        </div>
+        <div style="display: flex; justify-content: space-between; padding-top: 10px; padding-bottom: 10px;">
+          <!-- <img src="./36E1CF16-F5B7-4BE1-89B4-01BC222B1360.heic" alt="" style="height: 200px;"> -->
+          <img id="dog" class="hover" src="./398B2434-A346-4181-AAA9-0D07C4FA7E1F_4_5005_c.jpeg" alt="" style="height: 200px;">
+          <img id="rebellion" class="hover" src="./50229F75-4196-476C-BCB4-8A38610267C3_1_105_c.jpeg" alt="" style="height: 200px;">
+          <img id="porg" class="hover" src="./5289FCC1-8A48-43D6-91AE-1D5CBC21F30C_1_105_c.jpeg" alt="" style="height: 200px;">
+        </div>
+        <div style="display: flex; justify-content: space-between; padding-top: 10px; padding-bottom: 10px;">
+          <img id="cat" class="hover" src="./7654CD13-F136-4A66-A498-4A3D0ECF279C_4_5005_c.jpeg" alt="" style="height: 200px;">
+          <img id="heartpad" class="hover" src="./85F3B2F6-C805-42CA-BB8A-3444D79309AC_1_105_c.jpeg" alt="" style="height: 200px;">
+          <img src="./97058A92-F9E2-432B-BD94-8AD303635FBC_1_105_c.jpeg" alt="" style="height: 200px;">
+        </div>
+        <div style="display: flex; justify-content: space-between; padding-top: 10px; padding-bottom: 10px;">
+          <img src="./9AD49D8E-5252-4870-8A28-E390392D32A1_1_105_c.jpeg" alt="" style="height: 200px;">
+          <img src="./A4EF11E9-C07D-4905-B61E-14A67935134D_1_105_c.jpeg" alt="" style="height: 200px;">
+          <img src="./DF228942-6C1B-4C06-BFFB-CED184A1C86E_4_5005_c.jpeg" alt="" style="height: 200px;">
+        </div>
+        
+      </div>
+      <div id="dragonBig" style="position: relative; top: -425px; left: 125px;">
+        <p id="dragonBack" class="back"><u>back</u></p>
+        <img src="./033DD421-A49A-4AB4-BC92-C9729406B273_1_105_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <div id="empireBig" style="position: relative; top: -425px; left: 190px;">
+        <p id="empireBack" class="back"><u>back</u></p>
+        <img src="./237CA3B5-521C-4C24-84B6-DB824BA657FC.heic" alt="" style="height: 400px;">
+      </div>
+      <div id="BB8Big" style="position: relative; top: -425px; left: 120px;">
+        <p id="BB8Back" class="back"><u>back</u></p>
+        <img src="./2867E6B1-CB31-4316-880A-F2E83473202E_1_105_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <div id="dogBig" style="position: relative; top: -425px; left: 200px;">
+        <p id="dogBack" class="back"><u>back</u></p>
+        <img src="./398B2434-A346-4181-AAA9-0D07C4FA7E1F_4_5005_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <div id="rebellionBig" style="position: relative; top: -425px; left: 190px;">
+        <p id="rebellionBack" class="back"><u>back</u></p>
+        <img src="./50229F75-4196-476C-BCB4-8A38610267C3_1_105_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <div id="porgBig" style="position: relative; top: -425px; left: 20px;">
+        <p id="porgBack" class="back"><u>back</u></p>
+        <img src="./5289FCC1-8A48-43D6-91AE-1D5CBC21F30C_1_105_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <div id="catBig" style="position: relative; top: -425px; left: 150px;">
+        <p id="catBack" class="back"><u>back</u></p>
+        <img src="./7654CD13-F136-4A66-A498-4A3D0ECF279C_4_5005_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <div id="heartpadBig" style="position: relative; top: -425px; left: 150px;">
+        <p id="heartpadBack" class="back"><u>back</u></p>
+        <img src="./85F3B2F6-C805-42CA-BB8A-3444D79309AC_1_105_c.jpeg" alt="" style="height: 400px;">
+      </div>
+      <!-- <h1>Welcome to CatOS!</h1> -->
+      <!-- <h2>Introduction</h2> -->
+      <!-- <p>Hi! My name is Lilia, but on Slack, I'm known as KittyCat! I have two wonderful kitties and one little birdy named Oly. <br> I enjoy coding, drawing, and learning new things</p> -->
+      <!-- <img style="border-radius: 50px; float: right;" src="./IMG_3965-2.jpeg" alt="My kitties!" width="200"/> -->
+      <!-- <br> -->
+      <!-- <a href="https://github.com/AlanikREDAWN"> -->
+        <!-- <img src="./25231.png" alt="github logo" width="45px" style="padding-left: 2px;"> -->
+        <!-- <br> -->
+        <!-- GitHub -->
+      <!-- </a> -->
+  </div>
+    <div class="window" id="notes" style=" top: 50%; left: 50%; transform: translate(-50%, -50%); display: none; height: 480px;">
+      <!-- <p style="cursor: pointer;" id="welcomeclose">Close</p> -->
+      <div class="windowheader" id="notesheader">
+          <div class="closebutton" id="notesclose"></div>
+          <p class="headertext">Meow Notes</p>
+          <div style="width: 20px; margin-right: 8px; height: 20px;"></div>
+      </div>
+      <div style="display: flex; flex-direction: row; overflow-y: scroll;">
+        <div id="notesContent" style="display: block;">
+          <!-- <p>Welcome to <b>Meow Notes!</b></p>
+          <img src="https://cloud-l5rmdnp6x-hack-club-bot.vercel.app/0img_7625.jpg" alt="Carly kitty" width="200px">
+          <p>This is a place where I will write about my kitties and sometimes myself. <br> My two kitties names are Alex and Carly and they are the cutest Cornish <br> Rex kitties ever to walk the planet!</p>
+          <p>See that kitty in the picture above? That's Carly. She's the younger of my <br> two kitties, and the smallest. She's actually the runt of her litter.</p> -->
+        </div>
+        
+        <div id="sidebar" style="display: flex;  flex-direction: column; padding: 20px; background-color: aliceblue; margin-left: 20px; border-radius: 20px;">
+          <!-- <div style="display: block;">
+            <p style="margin: 0px;">Welcome</p>
+            <p style="font-size: 12px; margin: 0px; text-align: right;">10.07.24</p>
+          </div> -->
+          
+
+        </div>
+
+
+      </div>
+  </div>
+    <div class="window" id="welcome" style=" top: 50%; left: 50%; transform: translate(-50%, -50%)">
+        <!-- <p style="cursor: pointer;" id="welcomeclose">Close</p> -->
+        <div class="windowheader" id="welcomeheader">
+            <div class="closebutton" id="welcomeclose"></div>
+            <p class="headertext">Welcome</p>
+        </div>
+        <h1>Welcome to CatOS!</h1>
+        <h2>Introduction</h2>
+        <p>Hi! My name is Lilia, but on Slack, I'm known as KittyCat! I have two wonderful kitties and one little birdy named Oly. <br> I enjoy coding, drawing, and learning new things</p>
+        <img style="border-radius: 50px; float: right;" src="./IMG_3965-2.jpeg" alt="My kitties!" width="200"/>
+        <br>
+        <a href="https://github.com/AlanikREDAWN">
+          <img src="./25231.png" alt="github logo" width="45px" style="padding-left: 2px;">
+          <br>
+          GitHub
+        </a>
+    </div>
+    <!-- <br>
+    <code>Hello world</code>
+    <br>
+    <details>I love to code</details>
+    <br>
+    <dialog open>Fun things</dialog>
+    <br>
+    <p>Press this button: <kbd>Ctrl</kbd></p>
+    <br>
+    <mark>marked text</mark>
+    <br>
+    <progress id="file" value="32" max="100"> 32% Progress</progress>
+    <br>
+    <s>incorrect</s>
+    <br>
+    <small>this text is small</small>
+    <br>
+    <strong>this text is strong</strong>
+    <br>
+    <sub>this text is a subscript</sub>
+    <br>
+    <sup>this text is superscripted</sup> -->
+    <!-- <script src="script.js"></script> -->
+  </body>
+
+</html>

@@ -1,0 +1,43 @@
+.closebutton {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: #EC6B5E;
+    border-radius: 16px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+}
+.windowheader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    justify-content: space-between;
+    margin-top: 10px; 
+    background-color: rgba(0, 0, 0, );
+}
+.window {
+    border: thick double; 
+    width: fit-content;
+    border-radius: 18px; 
+    padding: 20px; 
+    background-color:lightpink; 
+    color:darkmagenta; 
+    font-family: Gill Sans, Trebuchet MS, sans-serif; 
+    position: absolute;
+}
+.headertext {
+    margin: 0px;
+}
+.selected {
+    filter: drop-shadow(0 0 10px rgb(44, 3, 63)) sepia(0.30);
+}
+.deselected {
+    filter: drop-shadow(0 0 10px darkmagenta);
+}
+.hover {
+    cursor: pointer;
+}
+.back {
+    cursor: pointer;
+}
