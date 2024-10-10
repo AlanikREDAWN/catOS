@@ -475,3 +475,91 @@ heartpadBack.addEventListener("click", (e) => {
   gallery.style.visibility = "visible";
   heartpadImageBig.style.display = "none";
 });
+
+// cola Image
+
+var colaImage = document.getElementById("cola");
+
+var colaImageBig = document.getElementById("colaBig");
+
+colaImageBig.style.display = "none";
+
+// dragonImage.addEventListener("click", () =>
+//   gallery.style.visibility = "hidden", dragonImageBig.style.visibility = "visible");
+
+colaImage.addEventListener("click", (e) => {
+  gallery.style.visibility = "hidden";
+  colaImageBig.style.display = "initial";
+});
+colaBack = document.getElementById("colaBack");
+
+colaBack.addEventListener("click", (e) => {
+  gallery.style.visibility = "visible";
+  colaImageBig.style.display = "none";
+});
+
+// trooper Image
+
+var trooperImage = document.getElementById("trooper");
+
+var trooperImageBig = document.getElementById("trooperBig");
+
+trooperImageBig.style.display = "none";
+
+// dragonImage.addEventListener("click", () =>
+//   gallery.style.visibility = "hidden", dragonImageBig.style.visibility = "visible");
+
+trooperImage.addEventListener("click", (e) => {
+  gallery.style.visibility = "hidden";
+  trooperImageBig.style.display = "initial";
+});
+trooperBack = document.getElementById("trooperBack");
+
+trooperBack.addEventListener("click", (e) => {
+  gallery.style.visibility = "visible";
+  trooperImageBig.style.display = "none";
+});
+
+// cupcake Image
+
+var cupcakeImage = document.getElementById("cupcake");
+
+var cupcakeImageBig = document.getElementById("cupcakeBig");
+
+cupcakeImageBig.style.display = "none";
+
+// dragonImage.addEventListener("click", () =>
+//   gallery.style.visibility = "hidden", dragonImageBig.style.visibility = "visible");
+
+cupcakeImage.addEventListener("click", (e) => {
+  gallery.style.visibility = "hidden";
+  cupcakeImageBig.style.display = "initial";
+});
+cupcakeBack = document.getElementById("cupcakeBack");
+
+cupcakeBack.addEventListener("click", (e) => {
+  gallery.style.visibility = "visible";
+  cupcakeImageBig.style.display = "none";
+});
+
+// alex Image
+
+var alexImage = document.getElementById("alex");
+
+var alexImageBig = document.getElementById("alexBig");
+
+alexImageBig.style.display = "none";
+
+// dragonImage.addEventListener("click", () =>
+//   gallery.style.visibility = "hidden", dragonImageBig.style.visibility = "visible");
+
+alexImage.addEventListener("click", (e) => {
+  gallery.style.visibility = "hidden";
+  alexImageBig.style.display = "initial";
+});
+alexBack = document.getElementById("alexBack");
+
+alexBack.addEventListener("click", (e) => {
+  gallery.style.visibility = "visible";
+  alexImageBig.style.display = "none";
+});
